@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Homepage for the liuliuzpan-setup">
+    <meta name="author" content="Samerton and NamelessMC Contributers">
+    <link rel="icon" href="favicon.ico">
+
+    <title>云上存储客户端发布</title>
+
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+	
+	<style>
+	body {
+	  padding-top: 20px;
+	  padding-bottom: 20px;
+	}
+
+	.navbar {
+	  margin-bottom: 20px;
+	}
+
+	</style>
+	
+  </head>
+  
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">切换导航</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">云上存储客户端</a>
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="/">主页</a></li>
+              <li><a href="/features/">特色</a></li>
+              <li><a href="https://github.com/Qingyun6/liuliuzpan-setup/releases">下载</a></li>
+              <li><a href="https://github.com/Qingyun6/liuliuzpan-setup">GitHub</a></li>
+            </ul>
+	        <ul class="nav navbar-nav navbar-right">
+          <li><a href="https://pan.liuliuz.com.cn/">在线版-></a></li>
+	        </ul>
+          </div>
+        </div>
+      </nav>
+
+    </div>
+
+    <div class="container">
+	  <center>
+	  <strong>
+		  <h3>欢迎使用云上存储产品~</h3>云上存储是LIULIUZ网络科技旗下的自营文件云上存储服务.<br /><a href="https://pan.liuliuz.com.cn/" data-toggle="modal" data-target="#reqModal">进入在线版看看吧-></a></strong>
+	  <hr>
+	  <div class="row">
+        <div class="col-lg-4">
+		  <h1><span class="glyphicon glyphicon-comment"></span></h1>
+          <h2>社区讨论</h2>
+          <p>强大的浓茶淡酒社区的扶持，可对接社区系统。做到论坛附件极速上传，释放服务器压力~</p>
+        </div>
+        <div class="col-lg-4">
+		  <h1><span class="glyphicon glyphicon-refresh"></span></h1>
+          <h2>多端同步</h2>
+          <p>可以让您的数据在多个网盘中同步，互相转移。</p>
+        </div>
+        <div class="col-lg-4">
+		  <h1><span class="glyphicon glyphicon-wrench"></span></h1>
+          <h2>设置方便</h2>
+          <p>简单易懂的后台设置，方便你对自己的网站主页自定义以及网盘的安全加密。</p>
+        </div>
+      </div>
+	  
+	  <div class="row">
+        <div class="col-lg-4">
+		  <h1><span class="glyphicon glyphicon-phone"></span></h1>
+          <h2>手机适配</h2>
+          <p>网盘框架基于MDUI，让手机也能很快地适应网盘操作。</p>
+        </div>
+        <div class="col-lg-4">
+		  <h1><span class="glyphicon glyphicon-stats"></span></h1>
+          <h2>数据分析</h2>
+          <p>我们将会利用浏览器cookie分析您的数据，为您提供一些优质的站内分享链接。</p>
+        </div>
+        <div class="col-lg-4">
+		  <h1><span class="glyphicon glyphicon-console"></span></h1>
+          <h2>开源软件</h2>
+          <p>云上存储基于国人开发的Cloudreve程序，同时经Go语言重构。</p>
+        </div>
+      </div>
+	  <hr>
+	  <div class="btn-group">
+		<a href="https://github.com/Qingyun6/liuliuzpan-setup/releases" class="btn btn-primary btn-lg">下载</a>
+	  </div>
+	  <hr>
+	  </center>
+
+
+      <!-- FOOTER -->
+      <footer>
+		<span class="pull-right"><p>云上存储基于 <a href="http://cloudreve.org">Cloudreve</a></p></span>
+        <p>&copy; 云上存储 2020-<script>document.write(new Date().getFullYear())</script></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+	<!-- Modal -->
+	<div class="modal fade" id="reqModal" tabindex="-1" role="dialog" aria-labelledby="reqModalLabel" aria-hidden="true">
+	  <div class="modal-dialog">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			<h4 class="modal-title" id="reqModalLabel">Requirements</h4>
+		  </div>
+		  <div class="modal-body">
+			PHP 5.3+<br />
+			PHP PDO and MySQLi extensions<br />
+			PHP-mcrypt extension<br />
+			PHP-GD extension<br />
+			MySQL database<br />
+			At least one Minecraft server<br />
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		  </div>
+		</div>
+	  </div>
+	</div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+  </body>
+</html>
